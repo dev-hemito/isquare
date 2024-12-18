@@ -2,7 +2,7 @@ import React from 'react';
 
 const OurMission = () => {
   return (
-    <div className=" py-12">
+    <div className=" py-12" id='mission'>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
 

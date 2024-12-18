@@ -14,7 +14,7 @@ export const Navbar = () => {
                         <span></span>
                     </div>
 
-                    <Link href=""
+                    <Link href="/contact"
                         className="   font-medium  text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0  bg-yellow-300 text-black hover:bg-yellow-500">Contact Us</Link>
                     <button data-collapse-toggle="mobile-menu-2" type="button"
                         className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -30,23 +30,23 @@ export const Navbar = () => {
                                 className="text-gray-200 hover:text-white">Home</Link>
                         </li>
                         <li>
-                            <Link href="/whoweare"
+                            <Link href="/#whoweare"
                                 className="text-gray-200 hover:text-white">Who we are</Link>
                         </li>
                         <li>
-                            <Link href="#"
+                            <Link href="/services"
                                 className="text-gray-200 hover:text-white">Services</Link>
                         </li>
                         <li>
-                            <Link href="#"
+                            <Link href="/#mission"
                                 className="text-gray-200 hover:text-white">Our Mission</Link>
                         </li>
                         <li>
-                            <Link href="#"
+                            <Link href="/consultants"
                                 className="text-gray-200 hover:text-white">Consultants</Link>
                         </li>
                         <li>
-                            <Link href="#"
+                            <Link href="/blogs"
                                 className="text-gray-200 hover:text-white">Articles</Link>
                         </li>
                     </ul>

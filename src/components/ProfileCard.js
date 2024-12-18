@@ -24,7 +24,7 @@ const ProfileCard = () => {
                 </div>
             </div>
             <div className="flex justify-center items-center mt-10">
-                <a href='/team'
+                <a href='/consultants'
                     className="inline-block bg-black hover:bg-yellow-500 text-white hover:text-black font-medium py-3 px-6 rounded-md transition-colors duration-300"
                 >
                     View our Professionals
