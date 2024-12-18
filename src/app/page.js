@@ -24,9 +24,9 @@ export const page = () => {
         buttonLink2="/register"
       /> */}
        <HeroV2
-                  title1 = 'Start your own business '
-                  title2 = ''
-                  description = '  Our team of accomplished trainers and consultants embodies a unique fusion of academic expertise and real-world experience. With a deep understanding of industry nuances and best practices, they provide tailored guidance and support to drive transformative growth and excellence.'
+                  title1 = 'Ready to sky-rocket your business'
+                  title2 = ' and drive growth?'
+                  description = "Transform your team's potential into success with our different training programs. Our goal is to help your team perform better and thus bring a long-lasting impression into your business. Partner with us in your journey to excellence and unlock new possibilities that lead to great results."
                   />
       <About/>
       <Services/>
