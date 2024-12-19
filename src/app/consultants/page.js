@@ -198,10 +198,10 @@ export const Page = () => {
 
                                 <p className="text-gray-700 mb-6">{selectedMember.shortBio}</p>
 
-                                <div className="grid md:grid-cols-2 gap-6">
+                                <div className="flex flex-wrap gap-6">
                                     {/* Professional Journey */}
                                     {selectedMember.professionalJourney && (
-                                        <div>
+                                        <div className='w-full'>
                                             <h3 className="text-2xl font-bold text-yellow-500 mb-4">Professional Journey</h3>
                                             <ul className="space-y-3">
                                                 {selectedMember.professionalJourney.map((journey, index) => (
@@ -216,7 +216,7 @@ export const Page = () => {
 
                                     {/* Awards & Recognitions */}
                                     {selectedMember.awards && (
-                                        <div>
+                                        <div className='w-full'>
                                             <h3 className="text-2xl font-bold text-yellow-500 mb-4">Awards & Recognitions</h3>
                                             <ul className="space-y-3">
                                                 {selectedMember.awards.map((award, index) => (
