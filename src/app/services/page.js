@@ -45,7 +45,7 @@ export const HeroV2 = () => {
       </div>
       <div className="text-center max-w-6xl mx-10 z-10">
         <h1 className="my-3   text-gray-600 text-3xl  font-light ">
-          <span className='text-green-800 text-7xl font-bold  '>Inspire </span> growth, <br /> enhance <span className='text-green-800 md:text-7xl font-bold '>Impact</span>
+          <span className='text-green-800 text-7xl font-bold  '>Inspire </span> growth, <br /> enhance <span className='text-green-800 text-7xl font-bold '>Impact</span>
         </h1>
         <div>
           <p className="max-w-4xl mx-auto mt-5 text-gray-500 md:leading-relaxed text-sm ">
