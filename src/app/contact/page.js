@@ -99,6 +99,10 @@ export const page = () => {
                                         <div className="mx-0 mb-1 sm:mb-4">
                                             <label htmlFor="textarea" className="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" name="textarea" cols="30" rows="5" placeholder="Write your message..." className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"></textarea>
                                         </div>
+                                        <div className="mx-0 mb-1 sm:mb-4">
+                                            <input type='checkbox' /> Agree to the <a href='terms' className='text-green-800'>terms and conditions</a>
+                                        </div>
+
                                     </div>
                                     <div className="text-center">
                                         <button type="submit" className="w-full bg-yellow-500 text-white px-6 py-3 font-xl rounded-md sm:mb-0">Send Message</button>

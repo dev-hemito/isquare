@@ -67,7 +67,8 @@ export const Navbar = () => {
                             { href: '/services', label: 'Services' },
                             { href: '/#mission', label: 'Our Mission' },
                             { href: '/consultants', label: 'Consultants' },
-                            { href: '/blogs', label: 'Articles' },
+                            { href: '/articles', label: 'Articles' },
+                            { href: '/csr', label: 'CSR' },
                             { href: '/contact', label: 'Contact', mobileOnly: true }
                         ].map((link) => (
                             <li 
