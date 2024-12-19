@@ -1,4 +1,5 @@
 'use client'
+import { ContactBanner } from '@/components/ContactBanner'
 import { Footer } from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import ServicesComponent from '@/components/ServiceDetailed'
@@ -77,6 +78,7 @@ export const page = () => {
       <Navbar />
       <HeroV2 />
       <ServicesComponent />
+      <ContactBanner/>
       <Footer />
     </div>
   )
